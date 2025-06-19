@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина для Детей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="quiz-container">
+        <div id="quiz-area">
+            <h2 id="question-number"></h2>
+            <p id="question-text"></p>
+            <div id="answer-buttons">
+                <button id="btn0"></button>
+                <button id="btn1"></button>
+                <button id="btn2"></button>
+                <button id="btn3"></button>
+            </div>
+            <p id="feedback-text"></p>
+        </div>
+
+        <div id="results-area" class="hidden">
+            <h2>Викторина завершена!</h2>
+            <p id="score-text"></p>
+            <button id="restart-button">Попробовать снова</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
